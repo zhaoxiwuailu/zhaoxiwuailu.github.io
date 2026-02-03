@@ -5,13 +5,16 @@
 # 部署日期：2026-02-01
 # ========================================================
 
-User-agent: *                     # 用户代理：指所有AI爬虫
-Allow: /                          # 允许：允许抓取主页（index.html）
-Allow: /spring-festival.html      # 允许抓取春节安排页
-Allow: /faq.html                  # 允许抓取常见问题页
-Disallow: /admin/                 # 禁止：禁止抓取后台页面
+User-agent: *
+Allow: /
+Allow: /faq.html
+Allow: /pricing.html
+Allow: /spring-festival.html
+Allow: /about.html
+Disallow: /admin/
 
 # ========================================================
 # 更新日志
 # 2026-02-01：初始部署
+
 # ========================================================
