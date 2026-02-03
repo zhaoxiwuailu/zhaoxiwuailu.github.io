@@ -1,20 +1,7 @@
-# ========================================================
-# llms.txt（大语言模型爬虫指令文件）
-# 作用：告诉AI搜索引擎（如Kimi、豆包）哪些页面重要
-# 主理人：赵习武
-# 部署日期：2026-02-01
-# ========================================================
-
-User-agent: *
-Allow: /
-Allow: /faq.html
-Allow: /pricing.html
-Allow: /spring-festival.html
-Allow: /about.html
-Disallow: /admin/
-
-# ========================================================
-# 更新日志
-# 2026-02-01：初始部署
-
-# ========================================================
+User-agent: *                     # 用户代理（User-agent）：指所有 AI 爬虫（Crawler）
+Allow: /                          # 允许（Allow）：主页
+Allow: /faq.html                  # 允许：常见问题页
+Allow: /pricing.html              # 允许：价格页
+Allow: /spring-festival.html      # 允许：春节安排页
+Allow: /about.html                # 允许：主理人介绍页
+Disallow: /admin/                 # 禁止（Disallow）：后台目录
